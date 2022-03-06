@@ -12,7 +12,6 @@ public class Main {
         int finalSquare = GetSquareOfString(stringOutSpace);
 
         ArrayList<String> firstSliptString = SlitString(stringOutSpace, finalSquare);
-        System.out.println("squareRoot: " + finalSquare);
         System.out.println("firstSliptString: " + firstSliptString.toString());
     }
 
